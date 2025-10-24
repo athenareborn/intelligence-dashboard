@@ -63,3 +63,20 @@ export type Subscription = {
   created_at: string
   updated_at: string
 }
+
+export type AppIdea = {
+  id: number
+  name: string
+  tagline: string | null
+  category: string | null
+  description: string | null
+  problem: string | null
+  solution: string | null
+  estimated_mrr_3mo: number | null
+  build_time_weeks: number | null
+  difficulty: string | null
+  viral_potential: number | null
+  status: string
+  priority: number
+  created_at: string
+}

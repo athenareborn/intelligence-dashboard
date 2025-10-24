@@ -11,13 +11,15 @@ import {
   Send,
   TrendingUp,
   Store,
-  Users
+  Users,
+  Sparkles
 } from 'lucide-react'
 
 const navItems = [
   { href: '/dashboard', label: 'Overview', icon: LayoutDashboard },
   { href: '/dashboard/signals', label: 'Pain Signals', icon: Radio },
   { href: '/dashboard/opportunities', label: 'Opportunities', icon: Lightbulb },
+  { href: '/dashboard/ideas', label: 'App Ideas', icon: Sparkles },
   { href: '/dashboard/trends', label: 'Trends', icon: TrendingUp },
   { href: '/dashboard/marketplace', label: 'Marketplace', icon: Store },
   { href: '/dashboard/creators', label: 'Creators', icon: Users },
