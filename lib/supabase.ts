@@ -89,4 +89,5 @@ export type AppIdea = {
   risks: string | null
   success_metrics: string | null
   ai_build_prompt: string | null
+  ai_features: string | null
 }

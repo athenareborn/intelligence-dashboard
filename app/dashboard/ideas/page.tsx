@@ -153,10 +153,23 @@ export default function IdeasPage() {
                 </Badge>
               </div>
               
-              {idea.category && (
-                <Badge variant="outline" className="w-fit">
-                  {idea.category}
+              <div className="flex gap-2 flex-wrap">
+                <Badge variant="outline" className="bg-gradient-to-r from-purple-50 to-blue-50 dark:from-purple-950 dark:to-blue-950 border-purple-300">
+                  🤖 AI-First
                 </Badge>
+                {idea.category && (
+                  <Badge variant="outline">
+                    {idea.category}
+                  </Badge>
+                )}
+              </div>
+
+              {/* AI Features Highlight */}
+              {idea.ai_features && (
+                <div className="mt-3 p-3 bg-gradient-to-r from-purple-50 to-blue-50 dark:from-purple-950 dark:to-blue-950 rounded-lg border border-purple-200 dark:border-purple-800">
+                  <p className="text-xs font-semibold text-purple-700 dark:text-purple-300 mb-1">🤖 AI FEATURES</p>
+                  <p className="text-sm text-purple-900 dark:text-purple-100">{idea.ai_features}</p>
+                </div>
               )}
             </CardHeader>
 
