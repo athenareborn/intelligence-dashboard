@@ -7,18 +7,20 @@ import {
   LayoutDashboard, 
   Radio, 
   Lightbulb, 
-  Search, 
   Package, 
   Send,
-  TrendingUp
+  TrendingUp,
+  Store,
+  Users
 } from 'lucide-react'
 
 const navItems = [
   { href: '/dashboard', label: 'Overview', icon: LayoutDashboard },
-  { href: '/dashboard/signals', label: 'Signals Feed', icon: Radio },
+  { href: '/dashboard/signals', label: 'Pain Signals', icon: Radio },
   { href: '/dashboard/opportunities', label: 'Opportunities', icon: Lightbulb },
-  { href: '/dashboard/research', label: 'Research', icon: Search },
-  { href: '/dashboard/products', label: 'Products', icon: Package },
+  { href: '/dashboard/trends', label: 'Trends', icon: TrendingUp },
+  { href: '/dashboard/marketplace', label: 'Marketplace', icon: Store },
+  { href: '/dashboard/creators', label: 'Creators', icon: Users },
   { href: '/dashboard/outreach', label: 'Outreach', icon: Send },
 ]
 
