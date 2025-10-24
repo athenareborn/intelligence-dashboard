@@ -79,4 +79,14 @@ export type AppIdea = {
   status: string
   priority: number
   created_at: string
+  tech_stack: string | null
+  key_features: string | null
+  target_audience: string | null
+  competition: string | null
+  unique_angle: string | null
+  monetization_strategy: string | null
+  growth_strategy: string | null
+  risks: string | null
+  success_metrics: string | null
+  ai_build_prompt: string | null
 }
